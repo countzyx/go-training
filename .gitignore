@@ -2,10 +2,12 @@
 *.o
 *.a
 *.so
+*.i
 
 # Folders
 _obj
 _test
+tour.golang.org/src/code.google.com/p/go-tour/.hg/
 
 # Architecture specific extensions/prefixes
 *.[568vq]
@@ -19,5 +21,9 @@ _cgo_export.*
 
 _testmain.go
 
+.hg*
+
 *.exe
 bin/
+
+/tour.golang.org/pkg
